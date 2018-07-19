@@ -1,0 +1,15 @@
+{
+  "name": "yca",
+  "version": "1.0.0",
+  "description": "Analyze youtube comments for any youtube video",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sleeyax",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-cookies": "^1.1.0"
+  }
+}

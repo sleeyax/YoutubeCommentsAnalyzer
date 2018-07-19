@@ -1,0 +1,6 @@
+.idea/
+
+src/res/*
+src/node_modules/*
+src/package-lock.json
+src/words.json
