@@ -118,13 +118,13 @@ let CommentParser = function () {
 
                         options.callback(commentThread.commentThreadObj);
                     } catch (e) {
-                        console.error('uknown error: ' + e.toString());
+                        console.error('unknown error: ' + e.toString());
                     }
                 }
 
                 if ('continuations' in itemSection) {
                     options.continuation = encodeURIComponent(itemSection.continuations[0].nextContinuationData.continuation);
-                    self.continueParsing(options.itct, options.continuation, options.session_token, options.callback);
+                    self.continueParsing(options);
                 }
             });
     }
