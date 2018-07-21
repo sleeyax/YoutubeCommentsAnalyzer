@@ -91,7 +91,7 @@ let CommentParser = function () {
 
             function (err, resp, body) {
                 if (err) {
-                    console.log(err);
+                    console.error(err);
                     return;
                 }
 
